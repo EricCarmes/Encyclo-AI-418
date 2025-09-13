@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Smartbook - AudioBook</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="Couverture_resized.jpg" alt="Couverture" style="width: 20%; height: auto; margin-bottom: 20px;">
+
+  <div class="logos">
+    <img src="PLANCHE-1a.jpg" alt="Logo AudioBook" style="width: 5%; height: auto; margin-bottom: 20px;">
+    <img src="Logo_resized.jpg" alt="Logo Encyclo-AI" style="width: 10%; height: auto; margin-bottom: 20px;">
+  </div>
+
+ 
+  <audio id="audioPlayer" controls></audio>
+ 
+  <ul id="playlist">
+
+    <!-- ✅ Introduction : lien cliquable en gras -->
+    <li style="margin-top: 15px;"><a href="Introduction.mp3" style="font-weight: bold;">INTRODUCTION - LES RACINES HISTORIQUES DU CONFLIT ISRAÉLO-ARABE</a></li>
+
+    <!-- Chapitre 1 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 1 - LES ORIGINES DU SIONISME</li>
+    <ul>
+      <li><a href="Chapitre1-1.mp3">1.1 - Contexte historique et émergence du sionisme</a></li>
+      <li><a href="Chapitre1-2.mp3">1.2 - Theodor Herzl et le premier congrès sioniste</a></li>
+      <li><a href="Chapitre1-3.mp3">1.3 - Les premières migrations juives vers la Palestine</a></li>
+    </ul>
+
+    <!-- Chapitre 2 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 2 - LE DÉCLIN DE L'EMPIRE OTTOMAN</li>
+    <ul>
+      <li><a href="Chapitre2-1.mp3">2.1 - Les réformes des Tanzimat et leurs impacts</a></li>
+      <li><a href="Chapitre2-2.mp3">2.2 - Les guerres balkaniques et leurs répercussions</a></li>
+      <li><a href="Chapitre2-3.mp3">2.3 - La Première Guerre mondiale et la fin de l'Empire ottoman</a></li>
+    </ul>
+
+    <!-- Chapitre 3 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 3 - LES RIVALITÉS COLONIALES EN MÉDITERRANÉE</li>
+    <ul>
+      <li><a href="Chapitre3-1.mp3">3.1 - Les ambitions des puissances européennes</a></li>
+      <li><a href="Chapitre3-2.mp3">3.2 - La conférence de San Remo et ses conséquences</a></li>
+      <li><a href="Chapitre3-3.mp3">3.3 - Les politiques coloniales et leurs impacts</a></li>
+    </ul>
+
+    <!-- Chapitre 4 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 4 - LA DÉCLARATION BALFOUR DE 1917</li>
+    <ul>
+      <li><a href="Chapitre4-1.mp3">4.1 - Contexte et motivations de la déclaration</a></li>
+      <li><a href="Chapitre4-2.mp3">4.2 - Réactions des communautés locales</a></li>
+      <li><a href="Chapitre4-3.mp3">4.3 - Conséquences immédiates et à long terme</a></li>
+    </ul>
+
+    <!-- Chapitre 5 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 5 - LE MANDAT BRITANNIQUE SUR LA PALESTINE</li>
+    <ul>
+      <li><a href="Chapitre5-1.mp3">5.1 - Mise en place du mandat et ses objectifs</a></li>
+      <li><a href="Chapitre5-2.mp3">5.2 - Les révoltes arabes contre le mandat</a></li>
+      <li><a href="Chapitre5-3.mp3">5.3 - Les politiques britanniques et leurs échecs</a></li>
+    </ul>
+
+    <!-- Chapitre 6 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 6 - LES VIOLENCES INTERCOMMUNAUTAIRES</li>
+    <ul>
+      <li><a href="Chapitre6-1.mp3">6.1 - Les émeutes de 1920 et 1929</a></li>
+      <li><a href="Chapitre6-2.mp3">6.2 - La grande révolte arabe de 1936-1939</a></li>
+      <li><a href="Chapitre6-3.mp3">6.3 - Les impacts des violences sur les perceptions mutuelles</a></li>
+    </ul>
+
+    <!-- Chapitre 7 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 7 - LA RÉSOLUTION DE PARTITION DE L'ONU EN 1947</li>
+    <ul>
+      <li><a href="Chapitre7-1.mp3">7.1 - Le contexte de la résolution</a></li>
+      <li><a href="Chapitre7-2.mp3">7.2 - Les réactions des parties prenantes</a></li>
+      <li><a href="Chapitre7-3.mp3">7.3 - Les conséquences immédiates de la résolution</a></li>
+    </ul>
+
+    <!-- Chapitre 8 -->
+    <li style="font-weight: bold; margin-top: 15px;">Chapitre 8 - LA GUERRE DE 1948 ET LA CRÉATION DE L'ÉTAT D'ISRAËL</li>
+    <ul>
+      <li><a href="Chapitre8-1.mp3">8.1 - Les causes de la guerre</a></li>
+      <li><a href="Chapitre8-2.mp3">8.2 - Le déroulement du conflit</a></li>
+      <li><a href="Chapitre8-3.mp3">8.3 - Les conséquences de la guerre</a></li>
+    </ul>
+
+<!-- ✅ Conclusion : lien cliquable en gras -->
+    <li style="margin-top: 15px;"><a href="Conclusion.mp3" style="font-weight: bold;">CONCLUSION - UN HÉRITAGE DE TENSIONS ET D'ESPOIRS</a></li>
+
+    <li style="list-style: none; margin-top: 10px; border-top: 1px solid #aaa; margin-bottom: 5px;"></li>
+  </ul>
+
+  <p><a href="Annexes.pdf" target="_blank">📄 Consulter les annexes du livre</a></p>
+  <p><a href="mentions_legales.pdf">Mentions légales</a></p>
+
+  <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+  <script src="lecteur.js"></script>
+</body>
+</html>
+
